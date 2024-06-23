@@ -6,8 +6,8 @@
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "AWS_ACCESS_KEY_ID": "XXXXXXX",
-        "AWS_SECRET_ACCESS_KEY": "XXXXXXXXX",
+        "AWS_ACCESS_KEY_ID": "",
+        "AWS_SECRET_ACCESS_KEY": "",
         "AWS_REGION": "ap-south-1",
         "AWS_LAMBDA_FUNCTION_NAME": "arn:aws:lambda:ap-south-1:975050380780:function:ExceptionNotificationService"
       },

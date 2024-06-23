@@ -1,0 +1,17 @@
+{
+  "Information": [
+    {
+      "EnvironmentVariables": {
+        "SNS_TOPIC_ARN": "arn:aws:sns:ap-south-1:975050380780:intuit-app-notif"
+      }
+    }
+  ],
+  "profile": "default",
+  "region": "ap-south-1",
+  "configuration": "Release",
+  "function-architecture": "x86_64",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 512,
+  "function-timeout": 30,
+  "function-handler": "ExceptionNotificationService::ExceptionNotificationService.Function::FunctionHandler"
+}

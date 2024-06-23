@@ -1,0 +1,13 @@
+﻿<Application x:Class="finDataWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:finDataWPF"
+             xmlns:vmlocator="clr-namespace:finDataWPF.ViewModelLocator"
+             xmlns:converter="clr-namespace:finDataWPF.Converters"
+             >
+    <Application.Resources>
+        <vmlocator:ViewModelLocator x:Key="ViewModelLocator" />
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <converter:MediaTypeToVisibilityConverter x:Key="MediaTypeToVisibilityConverter"/>
+    </Application.Resources>
+</Application>

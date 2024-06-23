@@ -1,0 +1,35 @@
+{
+  "profiles": {
+    "FinDataWebAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AWS_ACCESS_KEY_ID": "AKIA6GBMICXWON4B6ATX",
+        "AWS_SECRET_ACCESS_KEY": "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",
+        "AWS_REGION": "ap-south-1",
+        "AWS_LAMBDA_FUNCTION_NAME": "arn:aws:lambda:ap-south-1:975050380780:function:ExceptionNotificationService"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7205;http://localhost:5044"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5249",
+      "sslPort": 44374
+    }
+  }
+}
